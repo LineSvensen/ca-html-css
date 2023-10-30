@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li, a {
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+i {
+    font-size: 32px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 0.2s ease 0s;
+}
+i:hover {
+    color: #95DEFF;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 115px;
+    padding-left: 90px;
+    padding-bottom: 8px;
+    background-color: #000000;
+}
+header img {
+    width: 167px;
+    height: 72px;
+}
+
+.btn-sign-up-today {
+    color: #FFFFFF;
+    background-color: #FD6701;
+    border: none;
+    text-decoration: none;
+    padding: 4px 32px 4px 32px;
+    border-radius: 8px;
+    margin-left: 112px;
+}
+.btn-sign-up-today {
+    transition: all 0.2s ease 0s;
+}
+
+.btn-sign-up-today:hover {
+    color: #FFFFFF;
+    background-color: #FFA66A;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    height: 56px;
+
+    background-color: #333333;
+}
+
+.categories-section {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.categories-section li {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #333333;
+    padding: 0px 43px 0px 43px;
+}
+.categories-section li a {
+    transition: all 0.2s ease 0s;
+}
+
+.categories-section li a:hover {
+    color: #95DEFF;
+}
+
+.hero-banner-and-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("assets/herobanner.png");
+    height: 350px;
+    width: 1440px;
+}
+.hero-banner-and-content h1 {
+    font-size: 40px;
+    font-weight: normal;
+    padding-left: 112px;
+    color: #FFFFFF;
+}
+
+.hero-banner-and-content p {
+    font-size: 24px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-left: 112px;
+}
+
+body {
+    background-color: #232323;
+}
+
+.logo {
+    cursor: pointer;
+    background-color: #000000;
+    padding-top: 8px;
+    padding-bottom: 0;
+}
+
+.nav-links {
+    list-style: none;
+    background-color: #000000;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 43px;
+    background-color: #000000;
+}
+
+.nav-links li a {
+    transition: all 0.2s ease 0s;
+    background-color: #000000;
+}
+
+.nav-links li a:hover {
+    color: #95DEFF;
+    background-color: #000000;
+}
+
+
+/* xs */
+@media (min-width: 300px) {
+
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+
+}
