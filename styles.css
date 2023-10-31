@@ -28,87 +28,14 @@ header {
     justify-content: space-evenly;
     align-items: center;
     padding-right: 115px;
-    padding-left: 90px;
+    padding-left: 41px;
     padding-bottom: 8px;
     background-color: #000000;
 }
+
 header img {
     width: 167px;
     height: 72px;
-}
-
-.btn-sign-up-today {
-    color: #FFFFFF;
-    background-color: #FD6701;
-    border: none;
-    text-decoration: none;
-    padding: 4px 32px 4px 32px;
-    border-radius: 8px;
-    margin-left: 112px;
-}
-.btn-sign-up-today {
-    transition: all 0.2s ease 0s;
-}
-
-.btn-sign-up-today:hover {
-    color: #FFFFFF;
-    background-color: #FFA66A;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 1440px;
-    height: 56px;
-
-    background-color: #333333;
-}
-
-.categories-section {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.categories-section li {
-    display: inline-block;
-    font-size: 20px;
-    background-color: #333333;
-    padding: 0px 43px 0px 43px;
-}
-.categories-section li a {
-    transition: all 0.2s ease 0s;
-}
-
-.categories-section li a:hover {
-    color: #95DEFF;
-}
-
-.hero-banner-and-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-image: url("assets/herobanner.png");
-    height: 350px;
-    width: 1440px;
-}
-.hero-banner-and-content h1 {
-    font-size: 40px;
-    font-weight: normal;
-    padding-left: 112px;
-    color: #FFFFFF;
-}
-
-.hero-banner-and-content p {
-    font-size: 24px;
-    font-weight: normal;
-    color: #FFFFFF;
-    padding-left: 112px;
-}
-
-body {
-    background-color: #232323;
 }
 
 .logo {
@@ -138,6 +65,581 @@ body {
     color: #95DEFF;
     background-color: #000000;
 }
+
+.hero-banner-and-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("assets/herobanner101.png");
+    height: 350px;
+}
+
+.hero-banner-and-content h1 {
+    font-size: 40px;
+    font-weight: normal;
+    padding-left: 112px;
+    padding-right: 112px;
+    color: #FFFFFF;
+}
+
+.hero-banner-and-content p {
+    font-size: 24px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+
+
+.btn-sign-up-today {
+    color: #FFFFFF;
+    background-color: #FD6701;
+    border: none;
+    text-decoration: none;
+    padding: 4px 32px 4px 32px;
+    border-radius: 8px;
+    margin-left: 112px;
+}
+.btn-sign-up-today {
+    transition: all 0.2s ease 0s;
+}
+
+.btn-sign-up-today:hover {
+    color: #FFFFFF;
+    background-color: #FFA66A;
+}
+
+body {
+    background-color: #232323;
+    position: relative;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    background-color: #333333;
+}
+
+.categories-section {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.categories-section li {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #333333;
+    padding: 0 43px 0 64px;
+}
+.categories-section li a {
+    transition: all 0.2s ease 0s;
+}
+
+.categories-section li a:hover {
+    color: #95DEFF;
+}
+
+.popular-now-text {
+    padding: 16px 1131px 16px 112px;
+}
+
+.new-movies-text {
+    padding: 16px 1131px 16px 0;
+}
+
+.cards-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 16px;
+}
+
+/* card 1*/
+
+.card1 {
+    background-color: #333333;
+    width: 254px;
+    height: 424px;
+    margin: 0 40px 0 40px;
+    border-radius: 8px;
+    padding: 16px 39px 0px 39px;
+    box-sizing: border-box;
+}
+
+.card1 h3 {
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card1 p {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card1 .btn-add-to-cart {
+    font-size: 16px;
+    padding: 0.5px 43px 0.5px 43px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FD6701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.card-1-image {
+    height: 232px;
+    width: 176px;
+    background: url("assets/couple.png");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* card 2*/
+
+.card2 {
+    background-color: #333333;
+    width: 254px;
+    height: 424px;
+    margin: 0 40px 0 40px;
+    border-radius: 8px;
+    padding: 16px 39px 0px 39px;
+    box-sizing: border-box;
+}
+
+.card2 h3 {
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card2 p {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card2 .btn-add-to-cart {
+    font-size: 16px;
+    padding: 0.5px 43px 0.5px 43px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FD6701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.card-2-image {
+    height: 232px;
+    width: 176px;
+    background: url("assets/riddle.webp");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* card 3*/
+
+.card3 {
+    background-color: #333333;
+    width: 254px;
+    height: 424px;
+    margin: 0 40px 0 40px;
+    border-radius: 8px;
+    padding: 16px 39px 0px 39px;
+    box-sizing: border-box;
+}
+
+.card3 h3 {
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card3 p {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card3 .btn-add-to-cart {
+    font-size: 16px;
+    padding: 0.5px 43px 0.5px 43px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FD6701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.card-3-image {
+    height: 232px;
+    width: 176px;
+    background: url("assets/myteacherhesh.png");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* card 4*/
+
+.card4 {
+    background-color: #333333;
+    width: 254px;
+    height: 424px;
+    margin: 0 40px 0 40px;
+    border-radius: 8px;
+    padding: 16px 39px 0px 39px;
+    box-sizing: border-box;
+}
+
+.card4 h3 {
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card4 p {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card4 .btn-add-to-cart {
+    font-size: 16px;
+    padding: 0.5px 43px 0.5px 43px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FD6701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.card-4-image {
+    height: 232px;
+    width: 176px;
+    background: url("assets/raw.webp");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* card 11*/
+
+.card11 {
+    background-color: #333333;
+    width: 254px;
+    height: 424px;
+    margin: 0px 40px 0px 40px;
+    border-radius: 8px;
+    padding: 16px 39px 0px 39px;
+    box-sizing: border-box;
+}
+
+.card11 h3 {
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card11 p {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card11 .btn-add-to-cart {
+    font-size: 16px;
+    padding: 0.5px 43px 0.5px 43px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FD6701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.card-11-image {
+    height: 232px;
+    width: 176px;
+    background: url("assets/1131w-WZj6dhP22lA.webp");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* card 22*/
+
+.card22 {
+    background-color: #333333;
+    width: 254px;
+    height: 424px;
+    margin: 0 40px 0 40px;
+    border-radius: 8px;
+    padding: 16px 39px 0 39px;
+    box-sizing: border-box;
+}
+
+.card22 h3 {
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card22 p {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card22 .btn-add-to-cart {
+    font-size: 16px;
+    padding: 0.5px 43px 0.5px 43px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FD6701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.card-22-image {
+    height: 232px;
+    width: 176px;
+    background: url("assets/1131w-AOBSIAmLWOs.webp");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* card 33*/
+
+.card33 {
+    background-color: #333333;
+    width: 254px;
+    height: 424px;
+    margin: 0 40px 0 40px;
+    border-radius: 8px;
+    padding: 16px 39px 0px 39px;
+    box-sizing: border-box;
+}
+
+.card33 h3 {
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card33 p {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card33 .btn-add-to-cart {
+    font-size: 16px;
+    padding: 0.5px 43px 0.5px 43px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FD6701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.card-33-image {
+    height: 232px;
+    width: 176px;
+    background: url("assets/1131w-1l6a1MV4PaA.webp");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* card 44*/
+
+.card44 {
+    background-color: #333333;
+    width: 254px;
+    height: 424px;
+    margin: 0 40px 0 40px;
+    border-radius: 8px;
+    padding: 16px 39px 0 39px;
+    box-sizing: border-box;
+}
+
+.card44 h3 {
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card44 p {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card44 .btn-add-to-cart {
+    font-size: 16px;
+    padding: 0.5px 43px 0.5px 43px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FD6701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.card-44-image {
+    height: 232px;
+    width: 176px;
+    background: url("assets/wildforest.png");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.btn-add-to-cart:hover {
+    background-color: lightsalmon;
+}
+
+.full-homepage {
+    position: relative;
+    min-height: 100vh;
+}
+
+.full-page-without-footer {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.all-movies-text {
+    padding: 24px 0 16px 112px;
+}
+
+.all-movies-text a:hover {
+    color: #95DEFF;
+}
+
+.all-movies-text i {
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.squareeyes-membership {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.squareeyes-membership h2 {
+    margin-left: 112px;
+    margin-right: 112px;
+    padding-top: 16px;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.squareeyes-membership p {
+    margin-left: 112px;
+    margin-right: 112px;
+    padding-top: 8px;
+}
+
+.squareeyes-membership button {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.squareeyes-membership .bluetext {
+    color: cadetblue;
+}
+
+.bottom-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #4E4E4E;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px 0 8px 0;
+}
+
+.bottom-navbar p {
+    padding-left: 112px;
+}
+
+.bottom-navbar img {
+    height: 45px;
+    width: 102px;
+}
+
+.some-icons {
+    padding-right: 112px;
+}
+
+.some-icons i {
+    padding: 0 8px 0 8px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* xs */
