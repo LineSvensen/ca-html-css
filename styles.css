@@ -151,6 +151,7 @@ header img {
     padding-left: 112px;
     padding-right: 112px;
     color: #FFFFFF;
+    width: 100%;
 }
 
 .hero-banner-and-content p {
@@ -159,6 +160,7 @@ header img {
     color: #FFFFFF;
     padding-left: 112px;
     padding-right: 112px;
+    width: 100%;
 }
 
 
@@ -719,7 +721,21 @@ footer {
 
 
 /* Small (sm) */
-@media (max-width: 992px) {
+@media (max-width: 884px) {
+
+    .hero-banner-and-content {
+        flex-direction: column;
+    }
+
+    .hero-banner-and-content h1 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .hero-banner-and-content p {
+        font-size: 16px;
+    }
+
     .header {
         padding: 16px 40px;
     }
@@ -754,6 +770,20 @@ footer {
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1)
         inset;
     }
+
+    .categories-section li a {
+        display: block;
+        width: 16px;
+
+        font-size: 16px;
+        transition: all 0.2s ease 0s;
+
+    }
+
+    .categories-section li a:hover {
+        color: #95DEFF;
+    }
+
 }
 
 /* Medium (md) */
