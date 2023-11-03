@@ -41,6 +41,7 @@ header {
 .logo a img {
     display: block;
     width: 100%;
+    padding-left: 100px;
 }
 
 .nav-links {
@@ -315,8 +316,8 @@ body {
 }
 
 .new-movies-text {
-    padding: 16px 1131px 16px 112px;
-    color: blue;
+    padding: 16px 1131px 16px 0px;
+    color: #FFFFFF;
 
 }
 
@@ -789,10 +790,11 @@ footer {
 
 .some-icons {
     padding-right: 112px;
+    padding-left: 0;
+
 }
 
 .some-icons i {
-    padding: 0 8px 0 8px;
     align-items: center;
 }
 
@@ -818,27 +820,97 @@ footer {
 
 
 
+/* Small (xs) SCREENS UNDER THIS WIDTH */
+@media (max-width: 430px) {
+
+    .header {
+        width: 429px;
+    }
+
+    .some-icons i {
+        display: none;
+    }
+    .categories-section {
+        display: none;
+    }
+    .main {
+        display: none;
+    }
+    .hero-banner-and-content {
+        width: 429px;
+        background-size: 100%;
+
+    }
+    .hero-banner-and-content h1  {
+        font-size: 24px;
+        font-weight: normal;
+        padding-left: 8px;
+        padding-right: 8px;
+        color: #FFFFFF;
+
+    }
+    .hero-banner-and-content p {
+        font-size: 16px;
 
 
+    }
+
+    .btn-sign-up-today {
+        color: #FFFFFF;
+        background-color: #FD6701;
+        border: none;
+        text-decoration: none;
+        padding: 4px 32px 4px 32px;
+        border-radius: 8px;
+
+    }
+    .btn-sign-up-today {
+        transition: all 0.2s ease 0s;
+    }
+
+    .btn-sign-up-today:hover {
+        color: #FFFFFF;
+        background-color: #FFA66A;
+    }
+    .cards-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+    footer .some-icons {
+        display: none;
+    }
+
+
+
+
+}
 
 /* Small (sm) */
 @media (max-width: 884px) {
 
+
     .hero-banner-and-content {
         flex-direction: column;
-        background-size: 600%;
+        background-size: 700%;
         background-repeat: no-repeat;
-        background-position: 45% 0%;
+        background-position: 45% 0;
 
     }
 
     .hero-banner-and-content h1 {
         width: 100%;
         font-size: 32px;
+        padding-left: 16px;
+        text-align: center;
     }
 
     .hero-banner-and-content p {
         font-size: 16px;
+        padding-left: 70px;
+        text-align: center;
     }
 
     .header {
@@ -880,10 +952,43 @@ footer {
     }
     .hamburger-categories, .toggle-menu-categories {
         display: block;
-        margin-left: 390px;
+
     }
 
+    .categories-section p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 16px;
+    }
 
+    .hamburger-categories, .hamburger-categories:before, .hamburger-categories:after  {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+    }
+
+    .toggle-menu-categories  {
+        width: 100px;
+        height: 20px;
+    }
+
+    .categories-section {
+        padding-right: 50px;
+    }
+
+    .hamburger-categories p {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main {
+        padding: 0;
+    }
 
     .categories-menu {
         justify-content: start;
@@ -892,13 +997,13 @@ footer {
         text-align: center;
         position: fixed;
         background: #000000;
-        top: 480px;
+        top: 400px;
         right: -120px;
         width: 120px;
         height: 400px;
         padding-top: 0;
         padding-bottom: 16px;
-        border-radius: 8px 8px 8px 8px;
+        border-radius: 8px 0 0 8px;
 
     }
 
@@ -918,11 +1023,13 @@ footer {
     }
 
     .popular-now-text {
-        padding: 16px 0 16px 0;
         color: white;
         text-align: center;
+        white-space: nowrap;
+        padding-right: 0;
+        padding-left: 0;
     }
-    .bottom-navbar, p {
+    .bottom-navbar p {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -944,15 +1051,41 @@ footer {
         padding-top: 8px;
     }
     .categories-menu h4 {
+        display: flex;
+        letter-spacing: 0;
+        padding-top: 8px;
+        padding-left: 8px;
+        text-align: center;
+    }
+    .logo a img {
+        display: block;
+        width: 100%;
+        padding: none;
+    }
+    .cards-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    footer .some-icons {
         display: none;
     }
-
+    .bottom-navbar img {
+        padding-right: 40px;
+        width: 130px;
+    }
+    .bottom-navbar {
+        justify-content: space-between;
+    }
 
 
 }
 
 /* Medium (md) */
-@media (min-width: 768px) {
+@media (max-width: 1000px) {
+
+
 
 }
 
