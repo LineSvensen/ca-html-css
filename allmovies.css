@@ -20,6 +20,11 @@ i {
     color: #FFFFFF;
     transition: all 0.2s ease 0s;
 }
+
+.fa-brands {
+    padding: 8px;
+}
+
 i:hover {
     color: #00818D;
 }
@@ -130,20 +135,17 @@ header {
     transform: rotate(-45deg);
     width: 30px;
 }
+
 .nav-links input:checked ~ .hamburger:after {
     top: 0;
     transform: rotate(45deg);
     width: 30px;
 }
 
-
 header img {
     width: 167px;
     height: 72px;
 }
-
-
-
 
 .btn-sign-up-today {
     color: #FFFFFF;
@@ -274,17 +276,20 @@ body {
 }
 
 .categories-section input:checked ~ .hamburger-categories {
-    background: transparent;
+    background: #00818D;
+    width: 32px;
+    z-index: 1;
+    padding-left: 64px;
 }
 
 .categories-section input:checked ~ .hamburger-categories:before {
-    top: 0;
+
     transform: rotate(-45deg);
     width: 30px;
 }
 
 .categories-section input:checked ~ .hamburger-categories:after {
-    top: 0;
+
     transform: rotate(45deg);
     width: 30px;
 }
@@ -309,6 +314,11 @@ body {
     width: 110px;
     margin-left: 112px;
     letter-spacing: 1px;
+}
+
+.sort-by:hover {
+    background-color: grey;
+    transition: 0.3s;
 }
 
 
@@ -1240,6 +1250,33 @@ footer {
         display: none;
     }
 
+    .popular-now-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .sort-by {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .cards-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        position: sticky;
+    }
+
+
+
 
 
 
@@ -1260,7 +1297,9 @@ footer {
 
     .hamburger, .toggle-menu {
         display: block;
+        z-index: 3;
     }
+
     .menu {
         justify-content: start;
         flex-direction: column;
@@ -1273,7 +1312,9 @@ footer {
         height: 400px;
         padding-top: 65px;
         border-radius: 0 0 0 8px;
+        z-index: 2;
     }
+
     .menu li {
         width: 100%;
     }
@@ -1313,6 +1354,7 @@ footer {
 
     .categories-section {
         padding-right: 50px;
+        z-index: 1;
     }
 
     .hamburger-categories p {
@@ -1320,6 +1362,8 @@ footer {
         align-content: center;
         justify-content: center;
         text-align: center;
+        text-decoration: underline;
+        letter-spacing: 1px;
     }
 
     .main {
@@ -1338,9 +1382,7 @@ footer {
         width: 120px;
         height: 400px;
         padding-top: 0;
-        padding-bottom: 16px;
         border-radius: 8px 0 0 8px;
-
     }
 
     .categories-menu li {
@@ -1348,23 +1390,10 @@ footer {
     }
 
     .categories-menu li a {
-        padding: 4px;
         font-size: 16px;
         box-shadow: 0 1px 0 rgba(255,255,255,0.1) inset;
     }
-    .new-movies-text {
-        padding: 16px 0 16px 0;
-        color: white;
-        text-align: center;
-    }
 
-    .popular-now-text {
-        color: white;
-        text-align: center;
-        white-space: nowrap;
-        padding-right: 0;
-        padding-left: 0;
-    }
     .bottom-navbar p {
         display: flex;
         flex-direction: row;
@@ -1400,10 +1429,31 @@ footer {
     }
     .cards-section {
         display: flex;
-        flex-direction: column;
+
+        flex-direction: row;
         justify-content: center;
         align-content: center;
     }
+
+    .popular-now-text {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-left: 0;
+        padding: 16px;
+    }
+
+    .sort-by {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-left: 112px;
+    }
+
     footer .some-icons {
         display: none;
     }
@@ -1421,21 +1471,65 @@ footer {
 /* Medium (md) */
 @media (max-width: 1000px) {
 
+    .categories-menu li a {
+        padding: 8px 8px;
+    }
+
+    .popular-now-text {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-left: 150px;
+        white-space: nowrap;
+        padding: 16px 16px 16px 16px;
+    }
+
+    .sort-by {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-left: 167px;
+    }
+
+    .logo a img {
+        padding-left: 0;
+    }
+
 
 
 }
 
 /* Large (lg) */
-@media (min-width: 1024px) {
+@media (max-width: 1536px) {
+
+    .popular-now-text {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-left: 150px;
+        white-space: nowrap;
+        padding: 16px 16px 16px 16px;
+    }
+
+    .sort-by {
+        margin-left: 164px;
+    }
+
 
 }
 
 /* Extra Large (xl) */
-@media (min-width: 1280px) {
+/*@media (min-width: 1280px) {*/
 
-}
+/*}*/
 
 /* 2XL (2xl) */
-@media (min-width: 1536px) {
+/*@media (min-width: 1536px) {*/
 
 
