@@ -706,6 +706,7 @@ hr {
 
     .all-movies-text {
         padding: 24px 0 16px 112px;
+        letter-spacing: 1px;
     }
 
     .all-movies-text a:hover {
