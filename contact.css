@@ -6,60 +6,97 @@
     color: #FFFFFF;
 }
 
-.first-image-and-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    gap: 16px;
-}
-
-.first-image-and-text img {
-    width: 460px;
-    margin-bottom: 8px;
-    border-radius: 8px;
-}
-
-.images img {
-    border-radius: 8px;
-}
-
-.first-image-and-text h1 {
-    font-size: 40px;
-    font-weight: normal;
-    padding: 8px;
-}
-
-.first-image-and-text p {
-    font-size: 20px;
-    font-weight: normal;
-    padding: 8px;
-}
-
-.first-image-and-text h4 {
-    font-size: 20px;
-    font-weight: normal;
-    margin: 16px 8px 8px 8px;
-}
-
-.first-image-and-text i {
-    font-size: 20px;
-}
-
-.first-image-and-text i:hover {
-    color: #FFFFFF;
-}
-
-.about-us-section {
+main {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 40px;
+    font-weight: normal;
+    justify-content: flex-start;
+    padding: 16px;
+}
+
+main h2 {
+    font-size: 32px;
+    font-weight: normal;
+    padding: 16px;
+}
+
+main p {
+    letter-spacing: 1px;
+}
+
+.questions-and-answers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #333333;
+    width: 444px;
+    height: 558px;
+    font-size: 20px;
+    margin: 16px 0 16px 0;
     border-radius: 8px;
-    width: 700px;
-    height: 940px;
-    padding-left: 16px;
-    padding-right: 16px;
+}
+
+.questions-and-answers h2 {
+    padding-top: 0;
+    font-size: 32px;
+}
+
+.questions-and-answers p {
+    font-size: 20px;
+    width: 396px;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    width: 396px;
+    align-items: center;
+    align-content: center;
+    height: 2px;
+    border: none;
+    background-color: #00818D;
+}
+
+.hr-answer {
+    height: 8px;
+    background-color: #00818D;
+    border: none;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333333;
+    width: 1232px;
+    height: 424px;
+    border-radius: 8px;
+}
+
+.answer {
+    background-color: #4E4E4E;
+    border-radius: 2px 2px 8px 8px;
+    margin: 16px 32px 16px 32px;
+}
+
+.answer p {
+    padding: 8px;
 }
 
 .go-back {
@@ -333,18 +370,118 @@ footer {
         justify-content: space-between;
     }
 
-    .about-us-section {
+    .logo a img {
+        padding: 0;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    main h1 {
+        font-size: 40px;
+        font-weight: normal;
+        justify-content: flex-start;
+        padding: 16px;
+    }
+
+    main h2 {
+        font-size: 32px;
+        font-weight: normal;
+        padding: 16px;
+    }
+
+    main p {
+        letter-spacing: 1px;
+    }
+
+    .questions-and-answers {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 16px;
+        background-color: #333333;
+        width: 200px;
+        height: 558px;
+        font-size: 20px;
+        margin: 16px 0 16px 0;
+        border-radius: 8px;
+    }
+
+    .questions-and-answers h2 {
+        padding-top: 0;
+        font-size: 24px;
+    }
+
+    .questions-and-answers p {
+        font-size: 16px;
+        width: 250px;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    hr {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        width: 250px;
+        align-items: flex-start;
+        align-content: flex-start;
+        height: 2px;
+        border: none;
+        background-color: #00818D;
+    }
+
+    .hr-answer {
+        height: 8px;
+        background-color: #00818D;
+        border: none;
+    }
+
+    .contact-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #333333;
+        width: 400px;
+        height: 424px;
+        border-radius: 8px;
+    }
+
+    .call, .mail, .office-location {
         display: flex;
         flex-direction: column;
         align-content: center;
-        border-radius: 8px;
-        overflow: scroll;
-        height: 940px;
-        padding-left: 16px;
-        padding-right: 16px;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 16px 0 20px 0;
     }
-    .logo a img {
-        padding: 0;
+
+    .answer {
+        background-color: #4E4E4E;
+        border-radius: 2px 2px 8px 8px;
+        margin: 16px 32px 16px 32px;
+    }
+
+    .answer p {
+        padding: 8px;
+    }
+
+    .questions-and-answers {
+        width: 100px;
     }
 }
 
@@ -427,6 +564,24 @@ footer {
     .bottom-navbar {
         justify-content: space-between;
     }
+
+    .office-location {
+        align-content: center;
+        align-items: center;
+    }
+    .questions-and-answers {
+        height: 100%;
+        width: 100%;
+    }
+    .contact-box {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 300px;
+        border-radius: 8px;
+        padding: 16px;
+    }
+
 }
 
 /* Medium (md) */
@@ -519,6 +674,22 @@ footer {
     .bottom-navbar img {
         width: 120px;
         padding-right: 16px;
+    }
+    .contact-box {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 300px;
+        border-radius: 8px;
+        padding: 16px;
+    }
+    .office-location {
+        align-content: center;
+        align-items: center;
+    }
+    .questions-and-answers {
+        height: 100%;
+        width: 100%;
     }
 }
 
