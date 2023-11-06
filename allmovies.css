@@ -55,7 +55,6 @@ header {
     align-items: center;
 }
 
-
 .menu {
     display: flex;
     justify-content: center;
@@ -168,10 +167,7 @@ header img {
 body {
     background-color: #232323;
     position: relative;
-
 }
-
-/* categories menu ----*/
 
 .main {
     position: relative;
@@ -213,6 +209,7 @@ body {
     line-height: 1;
     transition: 0.3s;
 }
+
 .categories-menu h4 {
     padding-right: 16px;
     letter-spacing: 2px;
@@ -221,8 +218,6 @@ body {
 .categories-menu li a:hover {
     box-shadow: 0 -5px 0  inset;
 }
-
-/* ---- dropdown menu for categories -- */
 
 .hamburger-categories {
     position: relative;
@@ -269,7 +264,6 @@ body {
     cursor: pointer;
     opacity: 0;
 }
-
 
 .hamburger-categories, .toggle-menu-categories {
     display: none;
@@ -321,7 +315,6 @@ body {
     transition: 0.3s;
 }
 
-
 .cards-section {
     display: flex;
     flex-direction: row;
@@ -330,10 +323,7 @@ body {
     gap: 0 16px;
 }
 
-/* --------------------- CARDS --------------------------- */
-
 /* card 1*/
-
 .card1 {
     background-color: #333333;
     width: 254px;
@@ -358,9 +348,9 @@ body {
     text-align: center;
 }
 
-.card1 .btn-add-to-cart {
+.card1 .btn-add-to-cart, .card11 .btn-add-to-cart, .card111 .btn-add-to-cart, .card1111 .btn-add-to-cart {
     font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
+    padding: 1px 43px 1px 43px;
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
@@ -380,7 +370,6 @@ body {
 }
 
 /* card 2*/
-
 .card2 {
     background-color: #333333;
     width: 254px;
@@ -389,7 +378,6 @@ body {
     border-radius: 8px;
     padding: 16px 39px 0 39px;
     box-sizing: border-box;
-
 }
 
 .card2 h3 {
@@ -406,9 +394,9 @@ body {
     text-align: center;
 }
 
-.card2 .btn-add-to-cart {
+.card2 .btn-add-to-cart, .card22 .btn-add-to-cart, .card222 .btn-add-to-cart, .card2222 .btn-add-to-cart {
     font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
+    padding: 1px 43px 1px 43px;
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
@@ -428,7 +416,6 @@ body {
 }
 
 /* card 3*/
-
 .card3 {
     background-color: #333333;
     width: 254px;
@@ -453,9 +440,9 @@ body {
     text-align: center;
 }
 
-.card3 .btn-add-to-cart {
+.card3 .btn-add-to-cart, .card33 .btn-add-to-cart, .card333 .btn-add-to-cart, .card3333 .btn-add-to-cart {
     font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
+    padding: 1px 43px 1px 43px;
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
@@ -475,7 +462,6 @@ body {
 }
 
 /* card 4*/
-
 .card4 {
     background-color: #333333;
     width: 254px;
@@ -500,9 +486,9 @@ body {
     text-align: center;
 }
 
-.card4 .btn-add-to-cart {
+.card4 .btn-add-to-cart, .card44 .btn-add-to-cart, .card444 .btn-add-to-cart, .card4444 .btn-add-to-cart {
     font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
+    padding: 1px 43px 1px 43px;
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
@@ -522,14 +508,13 @@ body {
 }
 
 /* card 11*/
-
 .card11 {
     background-color: #333333;
     width: 254px;
     height: 424px;
     margin: 8px 40px 16px 40px;
     border-radius: 8px;
-    padding: 16px 39px 0px 39px;
+    padding: 16px 39px 0 39px;
     box-sizing: border-box;
 }
 
@@ -547,19 +532,6 @@ body {
     text-align: center;
 }
 
-.card11 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-11-image {
     height: 232px;
     width: 176px;
@@ -569,7 +541,6 @@ body {
 }
 
 /* card 22*/
-
 .card22 {
     background-color: #333333;
     width: 254px;
@@ -594,19 +565,6 @@ body {
     text-align: center;
 }
 
-.card22 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-22-image {
     height: 232px;
     width: 176px;
@@ -616,14 +574,13 @@ body {
 }
 
 /* card 33*/
-
 .card33 {
     background-color: #333333;
     width: 254px;
     height: 424px;
     margin: 8px 40px 16px 40px;
     border-radius: 8px;
-    padding: 16px 39px 0px 39px;
+    padding: 16px 39px 0 39px;
     box-sizing: border-box;
 }
 
@@ -641,19 +598,6 @@ body {
     text-align: center;
 }
 
-.card33 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-33-image {
     height: 232px;
     width: 176px;
@@ -663,7 +607,6 @@ body {
 }
 
 /* card 44*/
-
 .card44 {
     background-color: #333333;
     width: 254px;
@@ -688,19 +631,6 @@ body {
     text-align: center;
 }
 
-.card44 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-44-image {
     height: 232px;
     width: 176px;
@@ -710,7 +640,6 @@ body {
 }
 
 /* card 111*/
-
 .card111 {
     background-color: #333333;
     width: 254px;
@@ -735,19 +664,6 @@ body {
     text-align: center;
 }
 
-.card111 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-111-image {
     height: 232px;
     width: 176px;
@@ -757,7 +673,6 @@ body {
 }
 
 /* card 222*/
-
 .card222{
     background-color: #333333;
     width: 254px;
@@ -782,19 +697,6 @@ body {
     text-align: center;
 }
 
-.card222 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-222-image {
     height: 232px;
     width: 176px;
@@ -804,7 +706,6 @@ body {
 }
 
 /* card 333*/
-
 .card333{
     background-color: #333333;
     width: 254px;
@@ -829,19 +730,6 @@ body {
     text-align: center;
 }
 
-.card333 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-333-image {
     height: 232px;
     width: 176px;
@@ -851,7 +739,6 @@ body {
 }
 
 /* card 444*/
-
 .card444 {
     background-color: #333333;
     width: 254px;
@@ -876,19 +763,6 @@ body {
     text-align: center;
 }
 
-.card444 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-444-image {
     height: 232px;
     width: 176px;
@@ -898,7 +772,6 @@ body {
 }
 
 /* card 1111*/
-
 .card1111 {
     background-color: #333333;
     width: 254px;
@@ -923,19 +796,6 @@ body {
     text-align: center;
 }
 
-.card1111 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-1111-image {
     height: 232px;
     width: 176px;
@@ -945,7 +805,6 @@ body {
 }
 
 /* card 2222*/
-
 .card2222 {
     background-color: #333333;
     width: 254px;
@@ -970,19 +829,6 @@ body {
     text-align: center;
 }
 
-.card2222 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-2222-image {
     height: 232px;
     width: 176px;
@@ -992,7 +838,6 @@ body {
 }
 
 /* card 3333*/
-
 .card3333 {
     background-color: #333333;
     width: 254px;
@@ -1017,19 +862,6 @@ body {
     text-align: center;
 }
 
-.card3333 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-3333-image {
     height: 232px;
     width: 176px;
@@ -1039,7 +871,6 @@ body {
 }
 
 /* card 4444*/
-
 .card4444 {
     background-color: #333333;
     width: 254px;
@@ -1064,19 +895,6 @@ body {
     text-align: center;
 }
 
-.card4444 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-4444-image {
     height: 232px;
     width: 176px;
@@ -1084,12 +902,6 @@ body {
     background-size: cover;
     border-radius: 8px;
 }
-
-
-
-
-
-
 
 .btn-add-to-cart:hover {
     background-color: lightsalmon;
@@ -1176,7 +988,6 @@ footer {
 .some-icons {
     padding-right: 112px;
     padding-left: 0;
-
 }
 
 .some-icons i {
@@ -1193,21 +1004,8 @@ footer {
     box-shadow: -16px 0 40px rgba(0,0,0,0.3);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Small (xs) SCREENS UNDER THIS WIDTH */
 @media (max-width: 430px) {
-
     .header {
         width: 429px;
     }
@@ -1215,9 +1013,11 @@ footer {
     .some-icons i {
         display: none;
     }
+
     .categories-section {
         display: none;
     }
+
     .main {
         display: none;
     }
@@ -1231,6 +1031,7 @@ footer {
         border-radius: 8px;
 
     }
+
     .btn-sign-up-today {
         transition: all 0.2s ease 0s;
     }
@@ -1239,6 +1040,7 @@ footer {
         color: #FFFFFF;
         background-color: #FFA66A;
     }
+
     .cards-section {
         display: flex;
         flex-direction: column;
@@ -1246,6 +1048,7 @@ footer {
         align-content: center;
 
     }
+
     footer .some-icons {
         display: none;
     }
@@ -1278,8 +1081,6 @@ footer {
 
 /* Small (sm) */
 @media (max-width: 884px) {
-
-
     .header {
         padding: 16px 40px;
     }
@@ -1317,13 +1118,10 @@ footer {
         padding: 16px;
         font-size: 16px;
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
-
-        /* -------categories menu ----*/
-
     }
+
     .hamburger-categories, .toggle-menu-categories {
         display: block;
-
     }
 
     .categories-section p {
@@ -1409,6 +1207,7 @@ footer {
         padding-left: 40px;
         padding-top: 8px;
     }
+
     .categories-menu h4 {
         display: flex;
         letter-spacing: 0;
@@ -1416,14 +1215,15 @@ footer {
         padding-left: 8px;
         text-align: center;
     }
+
     .logo a img {
         display: block;
         width: 100%;
-        padding: none;
+        padding: 0;
     }
+
     .cards-section {
         display: flex;
-
         flex-direction: row;
         justify-content: center;
         align-content: center;
@@ -1451,20 +1251,19 @@ footer {
     footer .some-icons {
         display: none;
     }
+
     .bottom-navbar img {
         padding-right: 40px;
         width: 130px;
     }
+
     .bottom-navbar {
         justify-content: space-between;
     }
-
-
 }
 
 /* Medium (md) */
 @media (max-width: 1000px) {
-
     .categories-menu li a {
         padding: 8px 8px;
     }
@@ -1492,11 +1291,7 @@ footer {
     .logo a img {
         padding-left: 0;
     }
-
-
-
 }
-
 /* Large (lg) */
 @media (max-width: 1536px) {
 
@@ -1514,10 +1309,7 @@ footer {
     .sort-by {
         margin-left: 164px;
     }
-
-
 }
-
 /* Extra Large (xl) */
 /*@media (min-width: 1280px) {*/
 
@@ -1525,5 +1317,3 @@ footer {
 
 /* 2XL (2xl) */
 /*@media (min-width: 1536px) {*/
-
-

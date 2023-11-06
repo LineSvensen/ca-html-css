@@ -20,6 +20,7 @@ i {
     color: #FFFFFF;
     transition: all 0.2s ease 0s;
 }
+
 i:hover {
     color: #00818D;
 }
@@ -34,6 +35,7 @@ header {
     padding: 0 25px;
     transition: 0.3s;
 }
+
 .logo a {
     display: block;
 }
@@ -124,11 +126,13 @@ header {
 .nav-links input:checked ~ .hamburger {
     background: transparent;
 }
+
 .nav-links input:checked ~ .hamburger:before {
     top: 0;
     transform: rotate(-45deg);
     width: 30px;
 }
+
 .nav-links input:checked ~ .hamburger:after {
     top: 0;
     transform: rotate(45deg);
@@ -166,7 +170,6 @@ header img {
     width: 100%;
 }
 
-
 .btn-sign-up-today {
     color: #FFFFFF;
     background-color: #FD6701;
@@ -190,8 +193,6 @@ body {
     position: relative;
 
 }
-
-/* categories menu ----*/
 
 .main {
     position: relative;
@@ -233,6 +234,7 @@ body {
     line-height: 1;
     transition: 0.3s;
 }
+
 .categories-menu h4 {
     padding-right: 16px;
     letter-spacing: 2px;
@@ -241,8 +243,6 @@ body {
 .categories-menu li a:hover {
     box-shadow: 0 -5px 0  inset;
 }
-
-/* ---- dropdown menu for categories -- */
 
 .hamburger-categories {
     position: relative;
@@ -280,7 +280,6 @@ body {
     width: 25px;
 }
 
-
 .toggle-menu-categories {
     position: absolute;
     width: 30px;
@@ -289,7 +288,6 @@ body {
     cursor: pointer;
     opacity: 0;
 }
-
 
 .hamburger-categories, .toggle-menu-categories {
     display: none;
@@ -316,7 +314,7 @@ body {
 }
 
 .new-movies-text {
-    padding: 16px 1131px 16px 0px;
+    padding: 16px 1131px 16px 0;
     color: #FFFFFF;
 
 }
@@ -330,14 +328,13 @@ body {
 }
 
 /* card 1*/
-
 .card1 {
     background-color: #333333;
     width: 254px;
     height: 424px;
     margin: 8px 40px 16px 40px;
     border-radius: 8px;
-    padding: 16px 39px 0px 39px;
+    padding: 16px 39px 0 39px;
     box-sizing: border-box;
 }
 
@@ -355,7 +352,7 @@ body {
     text-align: center;
 }
 
-.card1 .btn-add-to-cart {
+.card1 .btn-add-to-cart, .card2 .btn-add-to-cart, .card3 .btn-add-to-cart, .card4 .btn-add-to-cart {
     font-size: 16px;
     padding: 0.5px 43px 0.5px 43px;
     font-weight: normal;
@@ -377,16 +374,14 @@ body {
 }
 
 /* card 2*/
-
 .card2 {
     background-color: #333333;
     width: 254px;
     height: 424px;
     margin: 8px 40px 16px 40px;
     border-radius: 8px;
-    padding: 16px 39px 0px 39px;
+    padding: 16px 39px 0 39px;
     box-sizing: border-box;
-
 }
 
 .card2 h3 {
@@ -403,19 +398,6 @@ body {
     text-align: center;
 }
 
-.card2 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-2-image {
     height: 232px;
     width: 176px;
@@ -425,14 +407,13 @@ body {
 }
 
 /* card 3*/
-
 .card3 {
     background-color: #333333;
     width: 254px;
     height: 424px;
     margin: 8px 40px 16px 40px;
     border-radius: 8px;
-    padding: 16px 39px 0px 39px;
+    padding: 16px 39px 0 39px;
     box-sizing: border-box;
 }
 
@@ -450,19 +431,6 @@ body {
     text-align: center;
 }
 
-.card3 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-3-image {
     height: 232px;
     width: 176px;
@@ -472,14 +440,13 @@ body {
 }
 
 /* card 4*/
-
 .card4 {
     background-color: #333333;
     width: 254px;
     height: 424px;
     margin: 8px 40px 16px 40px;
     border-radius: 8px;
-    padding: 16px 39px 0px 39px;
+    padding: 16px 39px 0 39px;
     box-sizing: border-box;
 }
 
@@ -497,19 +464,6 @@ body {
     text-align: center;
 }
 
-.card4 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-4-image {
     height: 232px;
     width: 176px;
@@ -519,14 +473,13 @@ body {
 }
 
 /* card 11*/
-
 .card11 {
     background-color: #333333;
     width: 254px;
     height: 424px;
     margin: 8px 40px 16px 40px;
     border-radius: 8px;
-    padding: 16px 39px 0px 39px;
+    padding: 16px 39px 0 39px;
     box-sizing: border-box;
 }
 
@@ -544,7 +497,7 @@ body {
     text-align: center;
 }
 
-.card11 .btn-add-to-cart {
+.card11 .btn-add-to-cart, .card22 .btn-add-to-cart, .card33 .btn-add-to-cart, .card44 .btn-add-to-cart {
     font-size: 16px;
     padding: 0.5px 43px 0.5px 43px;
     font-weight: normal;
@@ -566,7 +519,6 @@ body {
 }
 
 /* card 22*/
-
 .card22 {
     background-color: #333333;
     width: 254px;
@@ -591,19 +543,6 @@ body {
     text-align: center;
 }
 
-.card22 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-22-image {
     height: 232px;
     width: 176px;
@@ -613,14 +552,13 @@ body {
 }
 
 /* card 33*/
-
 .card33 {
     background-color: #333333;
     width: 254px;
     height: 424px;
     margin: 8px 40px 16px 40px;
     border-radius: 8px;
-    padding: 16px 39px 0px 39px;
+    padding: 16px 39px 0 39px;
     box-sizing: border-box;
 }
 
@@ -638,19 +576,6 @@ body {
     text-align: center;
 }
 
-.card33 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-33-image {
     height: 232px;
     width: 176px;
@@ -660,7 +585,6 @@ body {
 }
 
 /* card 44*/
-
 .card44 {
     background-color: #333333;
     width: 254px;
@@ -683,19 +607,6 @@ body {
     padding-top: 12px;
     font-weight: lighter;
     text-align: center;
-}
-
-.card44 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
 }
 
 .card-44-image {
@@ -1033,7 +944,6 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width:
         font-size: 14px;
         padding-right: 20px;
         padding-bottom: 16px;
@@ -1060,7 +970,7 @@ footer {
     .logo a img {
         display: block;
         width: 100%;
-        padding: none;
+        padding: 0;
     }
     .cards-section {
         display: flex;

@@ -329,35 +329,6 @@ body {
     transition: 0.3s;
 }
 
-.categories-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.categories-menu {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    z-index: 1;
-    transition: 0.5s;
-}
-
-.categories-menu li {
-    list-style-type: none;
-}
-
-.categories-menu li a {
-    color: #FFFFFF;
-    text-decoration: none;
-    display: block;
-    padding: 16px 32px;
-    font-size: 16px;
-    line-height: 1;
-    transition: 0.3s;
-}
-
 .popular-now-text {
     padding: 16px 1131px 16px 112px;
 }
@@ -396,9 +367,9 @@ body {
     text-align: center;
 }
 
-.card1 .btn-add-to-cart {
+.card1 .btn-add-to-cart, .card2 .btn-add-to-cart, .card3 .btn-add-to-cart, .card4 .btn-add-to-cart {
     font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
+    padding: 1px 43px 1px 43px;
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
@@ -442,19 +413,6 @@ body {
     text-align: center;
 }
 
-.card2 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-2-image {
     height: 232px;
     width: 176px;
@@ -488,19 +446,6 @@ body {
     text-align: center;
 }
 
-.card3 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
-}
-
 .card-3-image {
     height: 232px;
     width: 176px;
@@ -532,19 +477,6 @@ body {
     padding-top: 12px;
     font-weight: lighter;
     text-align: center;
-}
-
-.card4 .btn-add-to-cart {
-    font-size: 16px;
-    padding: 0.5px 43px 0.5px 43px;
-    font-weight: normal;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #FD6701;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    margin-top: 12px;
 }
 
 .card-4-image {
@@ -640,11 +572,6 @@ footer {
 }
 
 .nav-links input:checked ~ .menu {
-    right: 0;
-    box-shadow: -16px 0 40px rgba(0,0,0,0.3);
-}
-
-.categories-section input:checked ~ .categories-menu {
     right: 0;
     box-shadow: -16px 0 40px rgba(0,0,0,0.3);
 }
@@ -824,71 +751,8 @@ footer {
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
     }
 
-    .hamburger-categories, .toggle-menu-categories {
-        display: block;
-
-    }
-
-    .categories-section p {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        font-size: 16px;
-    }
-
-    .hamburger-categories, .hamburger-categories:before, .hamburger-categories:after  {
-        display: flex;
-        flex-direction: row;
-        background-color: transparent;
-    }
-
-    .toggle-menu-categories  {
-        width: 100px;
-        height: 20px;
-    }
-
-    .categories-section {
-        padding-right: 50px;
-        z-index: 1;
-    }
-
-    .hamburger-categories p {
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        text-align: center;
-        text-decoration: underline;
-        letter-spacing: 1px;
-    }
-
     .main {
         padding: 0;
-    }
-
-    .categories-menu {
-        justify-content: start;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        position: fixed;
-        background: #000000;
-        top: 400px;
-        right: -120px;
-        width: 120px;
-        height: 400px;
-        padding-top: 0;
-        border-radius: 8px 0 0 8px;
-    }
-
-    .categories-menu li {
-        width: 100%;
-    }
-
-    .categories-menu li a {
-        font-size: 16px;
-        box-shadow: 0 1px 0 rgba(255,255,255,0.1) inset;
     }
 
     .bottom-navbar p {
@@ -913,18 +777,10 @@ footer {
         padding-top: 8px;
     }
 
-    .categories-menu h4 {
-        display: flex;
-        letter-spacing: 0;
-        padding-top: 8px;
-        padding-left: 8px;
-        text-align: center;
-    }
-
     .logo a img {
         display: block;
         width: 100%;
-        padding: none;
+        padding: 0;
     }
 
     .cards-section {
@@ -970,7 +826,6 @@ footer {
 
     /* Medium (md) */
 @media (max-width: 1000px) {
-
     .categories-menu li a {
         padding: 8px 8px;
     }
@@ -1027,7 +882,6 @@ footer {
         gap: 16px;
     }
 }
-
 /* Extra Large (xl) */
 /*@media (min-width: 1280px) {*/
 
@@ -1035,5 +889,3 @@ footer {
 
 /* 2XL (2xl) */
 /*@media (min-width: 1536px) {*/
-
-
