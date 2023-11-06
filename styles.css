@@ -735,7 +735,7 @@ footer {
 @media (max-width: 430px) {
 
     .header {
-        width: 429px;
+        width: 400px;
     }
 
     .some-icons i {
@@ -748,7 +748,7 @@ footer {
         display: none;
     }
     .hero-banner-and-content {
-        width: 429px;
+        width: 400px;
         background-size: 100%;
 
     }
@@ -762,8 +762,6 @@ footer {
     }
     .hero-banner-and-content p {
         font-size: 16px;
-
-
     }
 
     .btn-sign-up-today {
@@ -794,21 +792,23 @@ footer {
         display: none;
     }
 
+    footer {
+        width: 400px;
+    }
 
-
-
+    .squareeyes-membership {
+        width: 400px;
+    }
 }
 
 /* Small (sm) */
 @media (max-width: 884px) {
-
 
     .hero-banner-and-content {
         flex-direction: column;
         background-size: 700%;
         background-repeat: no-repeat;
         background-position: 45% 0;
-
     }
 
     .hero-banner-and-content h1 {
