@@ -1015,11 +1015,12 @@ footer {
     }
 
     .categories-section {
-        display: none;
+        display: flex;
     }
 
     .main {
-        display: none;
+        display: flex;
+        width: 430px;
     }
 
     .btn-sign-up-today {
@@ -1046,7 +1047,6 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-content: center;
-
     }
 
     footer .some-icons {
@@ -1077,6 +1077,11 @@ footer {
         align-items: center;
         position: sticky;
     }
+
+    footer {
+        width: 430px;
+    }
+
 }
 
 /* Small (sm) */
